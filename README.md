@@ -7,7 +7,7 @@ $ gulp watch                              # arranca un servidor local con live-r
 ```
 
 #ejercicios
-1- Crea un componente contenedor para los mensajes                          #Props & State
-2- Crea un componente para los mensajes                                     #Props & State
-3- Crea un componente para la inserción de datos                            #Eventos
-4- Donde crees que es el mejor lugar mas optimo donde manipular el State?
+*Crea un componente contenedor para los mensajes                          #Props & State
+*Crea un componente para los mensajes                                     #Props & State
+*Crea un componente para la inserción de datos                            #Eventos
+*Donde crees que es el mejor lugar mas optimo donde manipular el State?
