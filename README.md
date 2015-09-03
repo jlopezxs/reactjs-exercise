@@ -1,8 +1,10 @@
 # reactjs-exercise
 
 # instalacion
+```
 $ npm install                             # instala las decencias
 $ gulp watch                              # arranca un servidor local con live-reload
+```
 
 #ejercicios
 1- Crea un componente contenedor para los mensajes                          #Props & State
