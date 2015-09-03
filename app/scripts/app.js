@@ -1,7 +1,7 @@
 import React from 'react';
-import Home from './components/home';
+import Chat from './components/chat';
 
 window.React = React;
 const mountNode = document.getElementById('app');
 
-React.render(<Home/>, mountNode);
+React.render(<Chat/>, mountNode);
