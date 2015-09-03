@@ -15,8 +15,6 @@ export default class ExampleComponent extends React.Component {
     }
     
     render() {
-        return ( < p > {
-            this.state.text
-        } < /p>);
+        return ( <p> {this.state.text} </p>);
     }
 }

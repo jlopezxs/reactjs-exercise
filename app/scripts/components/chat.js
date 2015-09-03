@@ -43,13 +43,14 @@ export default class Chat extends React.Component {
     render() {
         var value = this.state.value;
         return (
-            <div>
-            <ul>
-               {this.state.messages.map(function(message){
-                    return <li>{message.text}</li>
-               })}
-            </ul>
-            <input type="text" value={value} onKeyDown={this.handleKeyDown.bind(this)}/>
+            <div className="chat">
+                <div className="chat-header"><h1>Privalia Chat</h1></div>
+                <ul className="chat-messages">
+                   {this.state.messages.map(function(message){
+                        return <li>{message.text}</li>
+                   })}
+                </ul>
+                <input type="text" value={value} onKeyDown={this.handleKeyDown.bind(this)}/>
             </div>
         );
     }
