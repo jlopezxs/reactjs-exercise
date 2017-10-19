@@ -1,5 +1,7 @@
 # reactjs-exercise
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jlopezxs/reactjs-exercise.svg)](https://greenkeeper.io/)
+
 # instalacion
 ```
 $ npm install                             # instala las decencias
